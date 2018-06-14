@@ -1,17 +1,13 @@
-.nav a {
-  color: #5a5a5a;
-  font-size: 11px;
-  font-weight: bold;
-  padding: 14px 10px;
-  text-transform: uppercase;
-}
+/*Assoc. of Cyber Engineers Website*/
+/*Vast majority of styling should be done in this sheet*/
 
-.nav li {
-  display: inline;
-}
+/*------------------------BOOTSTRAP JUMBOTRON STYLING-------------------*/
 
+/* I'm using a placeholder here. I have a cool one commented out because
+   of possible copyright infringement*/
 .jumbotron {
-  background-image:url('https://www.cyberdefenselabs.com/wp-content/uploads/2016/04/board.png');
+  /*background-image:url('https://www.cyberdefenselabs.com/wp-content/uploads/2016/04/board.png');*/
+  background-image:url('https://fakeimg.pl/640x360');
   height: 425px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -43,6 +39,58 @@
   color: white;
 }
 
+/*------------------------END OF JUMBOTRON-------------------*/
+
+
+/*------------------------BOOTSTRAP PARALLAX STYLING-------------------*/
+
+/*parallax and parallax-2 (for some reason, parallax-1 wouldn't work), are scrolling
+  images with a cool animation, I think it makes websites stand out as more professional
+  but is totally subject to change*/
+.parallax {
+    /* The image used */
+    background-image: url('../../img/cyberstorm/5.png');
+
+    /* Set a specific height */
+    min-height: 225px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-2 {
+    /* The image used */
+    background-image: url('../../img/cyberstorm/7.png');
+
+    /* Set a specific height */
+    min-height: 225px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*------------------------END OF PARALLAX IMAGES-------------------*/
+
+
+/*------------------------GENERAL ELEMENT STYLING-------------------*/
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+}
+
+.nav li {
+  display: inline;
+}
+
 .information-panel {
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
@@ -72,50 +120,12 @@
   color: #00b0ff;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url('../../img/cyberstorm/5.png');
-
-    /* Set a specific height */
-    min-height: 225px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax-1 {
-    /* The image used */
-    background-image: url('../../img/cyberstorm/7.png');
-
-    /* Set a specific height */
-    min-height: 225px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.parallax-2 {
-    /* The image used */
-    background-image: url('../../img/cyberstorm/7.png');
-
-    /* Set a specific height */
-    min-height: 225px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
+/*Minor stylings for the thumbnails so they don't take up the whole screen, 
+  and actually match the background*/
 .thumbnail {
   background: #efefef;
   width: 200px;
   height: 200px;
 }
+
+/*------------------------END OF ELEMENT STYLING-------------------*/
