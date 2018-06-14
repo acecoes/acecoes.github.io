@@ -11,7 +11,7 @@
 }
 
 .jumbotron {
-  background-image:url('../../img/background3.png');
+  background-image:url('https://www.cyberdefenselabs.com/wp-content/uploads/2016/04/board.png');
   height: 425px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -74,7 +74,7 @@
 
 .parallax {
     /* The image used */
-    background-image: url('../../img/background.png');
+    background-image: url('../../img/cyberstorm/5.png');
 
     /* Set a specific height */
     min-height: 225px; 
@@ -88,7 +88,7 @@
 
 .parallax-1 {
     /* The image used */
-    background-image: url('../../img/cyberstorm/1.png');
+    background-image: url('../../img/cyberstorm/7.png');
 
     /* Set a specific height */
     min-height: 225px; 
@@ -102,7 +102,7 @@
 
 .parallax-2 {
     /* The image used */
-    background-image: url('../../img/cyberstorm/2.png');
+    background-image: url('../../img/cyberstorm/7.png');
 
     /* Set a specific height */
     min-height: 225px; 
@@ -116,4 +116,6 @@
 
 .thumbnail {
   background: #efefef;
+  width: 200px;
+  height: 200px;
 }
