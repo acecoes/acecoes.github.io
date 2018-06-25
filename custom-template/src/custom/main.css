@@ -120,6 +120,11 @@
   color: #00b0ff;
 }
 
+.image img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
 /*Minor stylings for the thumbnails so they don't take up the whole screen, 
   and actually match the background*/
 .thumbnail {
