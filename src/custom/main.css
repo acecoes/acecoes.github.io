@@ -28,7 +28,7 @@
 
 .jumbotron h1 {
   color: white;
-  font-size: calc(27pt + 1vw);  
+  font-size: calc(24pt + .75vw);  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
@@ -128,8 +128,13 @@
     font-size: calc(22pt + 1vw);
 }
 
+.information-panel h4 {
+    color: #393c3d;
+    font-size: calc(16pt + .6vw);
+}
+
 .information-panel p {
-    font-size: calc(13pt + .5vw);
+    font-size: calc(10pt + .5vw);
     margin-bottom: 13px;
 }
 
@@ -141,6 +146,10 @@
   font-family: 'Shift', sans-serif;
   font-size: calc(16pt + .15vw);
   font-weight: bold;
+}
+
+.learn-more p {
+	font-size: calc(10pt + .5vw)
 }
 
 .learn-more a {
