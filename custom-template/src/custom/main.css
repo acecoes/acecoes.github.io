@@ -3,14 +3,13 @@
 
 /*------------------------BOOTSTRAP JUMBOTRON STYLING-------------------*/
 
-/* I'm using a placeholder here. I have a cool one commented out because
-   of possible copyright infringement*/
+/*Edited jumbotron image and set the bottom margin to 2px*/
 .jumbotron {
-  /*background-image:url('https://www.cyberdefenselabs.com/wp-content/uploads/2016/04/board.png');*/
-  background-image:url('https://fakeimg.pl/640x360');
+  background-image:url('../../img/more cyberstorm/Purple.png');
   height: 425px;
   background-repeat: no-repeat;
   background-size: cover;
+	margin-bottom: 2px;
 }
 
 .shade {
@@ -63,10 +62,23 @@
 
 .parallax-2 {
     /* The image used */
-    background-image: url('../../img/cyberstorm/7.png');
+    background-image: url('../../img/more cyberstorm/Bulldog.png');
 
     /* Set a specific height */
-    min-height: 225px; 
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-3 {
+    /* The image used */
+    background-image: url('../../img/more cyberstorm/Screen.png');
+
+    /* Set a specific height */
+    min-height: 300px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
