@@ -79,12 +79,26 @@
 
 
 /*------------------------GENERAL ELEMENT STYLING-------------------*/
+.nav {
+  position: fixed;
+  background-color: #efefef;
+  border-bottom: 1px solid #dbdbdb;
+  width: 100%;
+  top: 0;
+  opacity: 1.0;
+}
+
 .nav a {
   color: #5a5a5a;
   font-size: 11px;
   font-weight: bold;
-  padding: 14px 10px;
+  padding: 10px 10px;
   text-transform: uppercase;
+}
+
+.nav a:hover {
+    background: #efefef;
+    color: black;
 }
 
 .nav li {
@@ -140,6 +154,10 @@
 .row {
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+h1 {
+  padding-top: 10px;
 }
 
 /*------------------------END OF ELEMENT STYLING-------------------*/
