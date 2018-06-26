@@ -123,6 +123,10 @@
 .image img {
   max-width: 100px;
   max-height: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 /*Minor stylings for the thumbnails so they don't take up the whole screen, 
@@ -131,6 +135,11 @@
   background: #efefef;
   width: 200px;
   height: 200px;
+}
+
+.row {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 /*------------------------END OF ELEMENT STYLING-------------------*/
