@@ -104,49 +104,76 @@
 					These are some of our favorite things to 
 					cover and use in meetings. From concepts to tools, we love it all. 
 				</p>
-				<div class="row">
-					<!--Linux Mint-->
-					<div class="col-md-4">
-						<div class="card" style="width: 20rem;">
-							<a href="https://linuxmint.com/download.php">
-								<img class="card-img-top thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Logo_Linux_Mint.png" alt="Linux Mint">
-							</a>
-							<div class="card-body">
-								<p class="card-text">
-									Linux Mint is a popular Linux distribution that we typically use in 
-									Oracle's Virtualbox virtual environment.
-								</p>
-							</div>
-						</div>					
-					</div>
-					<!--Virtualbox-->
-					<div class="col-md-4">
-						<div class="card" style="width: 20rem;">
-							<a href="https://www.virtualbox.org/wiki/Downloads">
-								<img class="card-img-top thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png" alt="Linux Mint">
-							</a>
-							<div class="card-body">
-								<p class="card-text">
-									Virtualbox allows us to run different operating systems inside of our
-									current one for a secure workspace. 
-								</p>
-							</div>
-						</div>					
-					</div>
-					<!--Python-->
-					<div class="col-md-4">
-						<div class="card" style="width: 20rem;">
-							<a href="https://www.python.org/downloads/release/python-365/">
-								<img class="card-img-top thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/500px-Python-logo-notext.svg.png" alt="Linux Mint">
-							</a>
-							<div class="card-body">
-								<p class="card-text">
-									Python is a powerful programming language that allows us to create 
-									scripts to solve tough problems.
-								</p>
-							</div>
-						</div>					
-					</div>
+
+        <!-- containers for Linux Mint XFCE information -->
+        <div class="container">
+          <div class="row">
+
+            <!-- Thumbnail -->
+            <div class="col-md-2">
+              <div class="image">
+              	<a href="https://linuxmint.com/download.php">
+                	<img src="https://upload.wikimedia.org/wikipedia/commons/3/3f/Logo_Linux_Mint.png">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-10">
+              <!-- Name -->
+              <h4>Linux Mint XFCE</h4>
+
+              <!-- Information -->
+              <p>Linux Mint is a popular distribution of the Linux operating system. It is typically used by those new to Linux as well as those that are just looking for a simple experience (as opposed to more involved distributions such as Gentoo and Arch). We typically reccomend the XFCE flavor as it is light-weight and easy to run in a virtual machine, which is our reccomendation for anyone getting started with Linux. While there are more lightweight experiences out there, they aren't tailored for beginners to the world of Linux and can seem quite daunting.</p>
+              <p>To find out more about the Linux Mint Project, check out the website at <a href="https://www.linuxmint.com">www.linuxmint.com</a>.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- containers for VirtualBox information -->
+        <div class="container">
+          <div class="row">
+
+            <!-- Thumbnail -->
+            <div class="col-md-2">
+              <div class="image">
+              	<a href="https://www.virtualbox.org/wiki/Downloads">
+                	<img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/Virtualbox_logo.png">
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-10">
+              <!-- Name -->
+              <h4>Virtual Box</h4>
+
+              <!-- Information -->
+              <p>Virtual Box is a free and powerful virtualization software that allows the user to create and manage virtual machines (virtual instances of operating systems running within a piece of software such as Virtual Box). It is a popular alternative to VMWare and is typically preferred by open source enthusiasts. In the Association of Cyber Engineers, we are constantly creating new virtual machines, sometimes to host an experiment (often involving new exploits) or sometimes something as simple as hosting a website we are designing. It has a wide range of uses and is a very important tool for any computer scientist or cyber engineer.</p>
+              <p>To find out more about Virtual Box, check out their website at <a href="https://www.virtualbox.org">www.virtualbox.org</a>.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- containers for Python information -->
+        <div class="container">
+          <div class="row">
+
+            <!-- Thumbnail -->
+            <div class="col-md-2">
+              <div class="image">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/500px-Python-logo-notext.svg.png">
+              </div>
+            </div>
+
+            <div class="col-md-10">
+              <!-- Name -->
+              <h4>Python</h4>
+
+              <!-- Information -->
+              <p>Python is a powerful programming language that allows us to create scripts to solve tough problems.</p>
+			  <p>To find out more about Python, check out the website at <a href="https://www.python.org/">www.python.org</a>.</p>
+            </div>
+          </div>
+        </div>
 
           <p>For more of our favorite tools, we have <a href="./tools.html">a whole page on it!</a></p>
 
@@ -157,7 +184,9 @@
 
     <div class='information-panel'>
       <div class='footerText'>
-        <p>Website for the Association of Cyber Engineers -- Louisiana Tech University -- 2018</p>
+      	<div class="container">
+        	<p>Website for the Association of Cyber Engineers -- Louisiana Tech University -- 2018</p>
+    	</div>
       </div>
     </div>
 
