@@ -62,10 +62,10 @@
 
 .parallax-2 {
     /* The image used */
-    background-image: url('../../img/cyberstorm/7.png');
+    background-image: url('../../img/more cyberstorm/Bulldog.png');
 
     /* Set a specific height */
-    min-height: 225px; 
+    min-height: 300px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
