@@ -51,7 +51,7 @@
     background-image: url('../../img/cyberstorm/5.png');
 
     /* Set a specific height */
-    min-height: 225px; 
+    min-height: 30px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
