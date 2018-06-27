@@ -153,15 +153,17 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: 100%;
 }
 
 /*Minor stylings for the thumbnails so they don't take up the whole screen, 
   and actually match the background*/
 .thumbnail {
   background: #efefef;
-  width: 150px;
-  height: 150px;
+  max-width: 150px;
+  max-height: 150px;
+  width: 100%;
+  height: 100%;
 }
 
 .row {
