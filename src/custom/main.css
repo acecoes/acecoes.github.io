@@ -28,13 +28,13 @@
 
 .jumbotron h1 {
   color: white;
-  font-size: 48px;  
+  font-size: 48vw;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
 
 .jumbotron p {
-  font-size: 20px;
+  font-size: 20vw;
   color: white;
 }
 
@@ -103,7 +103,7 @@
 
 .nav a {
   color: #5a5a5a;
-  font-size: 11px;
+  font-size: calc(7.75px + .25vw);
   font-weight: bold;
   padding: 10px 10px;
   text-transform: uppercase;
@@ -125,11 +125,11 @@
 
 .information-panel h2 {
     color: #393c3d;
-    font-size: 24px;
+    font-size: 24vw;
 }
 
 .information-panel p {
-    font-size: 15px;
+    font-size: 15vw;
     margin-bottom: 13px;
 }
 
@@ -139,7 +139,7 @@
 
 .learn-more h3 {
   font-family: 'Shift', sans-serif;
-  font-size: 18px;
+  font-size: 18vw;
   font-weight: bold;
 }
 
@@ -180,7 +180,7 @@ h1 {
 }
 
 .footerText p {
-  font-size: 8pt;
+  font-size: calc(7px + .25vw);
   color: #191c1d;
   text-align: center;
 }
