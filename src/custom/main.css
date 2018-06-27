@@ -173,4 +173,14 @@ h1 {
   padding-top: 10px;
 }
 
+.footerText {
+  border-top: 1px solid #dbdbdb;
+}
+
+.footerText p {
+  font-size: 8pt;
+  color: #191c1d;
+  text-align: center;
+}
+
 /*------------------------END OF ELEMENT STYLING-------------------*/
