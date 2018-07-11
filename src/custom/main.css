@@ -90,12 +90,13 @@
 /*------------------------END OF PARALLAX IMAGES-------------------*/
 
 
-/*------------------------GENERAL ELEMENT STYLING-------------------*/
+/*--------------------------- navbar styling ----------------------*/
 .nav {
   position: fixed;
   background-color: #efefef;
   border-bottom: 1px solid #dbdbdb;
   width: 100%;
+  height: calc(20px + .2vw);
   top: 0;
   opacity: 1.0;
   z-index: 10000000;
@@ -117,6 +118,35 @@
 .nav li {
   display: inline;
 }
+
+.nav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .nav a:not(:first-child) {display: none;}
+  .nav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav.responsive {position: relative;}
+  .nav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .nav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+/*------------------------ End of navbar styling -------------------*/
+
+/*------------------------GENERAL ELEMENT STYLING-------------------*/
 
 .information-panel {
     background-color: #efefef;
