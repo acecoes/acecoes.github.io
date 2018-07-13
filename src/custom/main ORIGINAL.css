@@ -3,15 +3,13 @@
 
 /*------------------------BOOTSTRAP JUMBOTRON STYLING-------------------*/
 
-/* I'm using a placeholder here. I have a cool one commented out because
-   of possible copyright infringement*/
+/*Edited jumbotron image and set the bottom margin to 2px*/
 .jumbotron {
-  /*background-image:url('https://www.cyberdefenselabs.com/wp-content/uploads/2016/04/board.png');*/
-  background-image:url('https://fakeimg.pl/640x360');
+  background-image:url('../../img/more cyberstorm/Purple.png');
   height: 425px;
   background-repeat: no-repeat;
   background-size: cover;
-}
+  margin-bottom: 2px;
 
 .shade {
   width: 110%;
@@ -29,13 +27,13 @@
 
 .jumbotron h1 {
   color: white;
-  font-size: 48px;  
+  font-size: calc(24pt + .75vw);  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
 }
 
 .jumbotron p {
-  font-size: 20px;
+  font-size: calc(14pt + .5vw);
   color: white;
 }
 
@@ -52,7 +50,21 @@
     background-image: url('../../img/cyberstorm/5.png');
 
     /* Set a specific height */
-    min-height: 225px; 
+    min-height: 100px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax_1 {
+    /* The image used */
+    background-image: url('../../img/cyberstorm/5.png');
+
+    /* Set a specific height */
+    min-height: 3px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -63,10 +75,23 @@
 
 .parallax-2 {
     /* The image used */
-    background-image: url('../../img/cyberstorm/7.png');
+    background-image: url('../../img/more cyberstorm/Bulldog.png');
 
     /* Set a specific height */
-    min-height: 225px; 
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax-3 {
+    /* The image used */
+    background-image: url('../../img/more cyberstorm/Screen.png');
+
+    /* Set a specific height */
+    min-height: 300px; 
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -76,7 +101,6 @@
 }
 
 /*------------------------END OF PARALLAX IMAGES-------------------*/
-
 
 /*------------------------GENERAL ELEMENT STYLING-------------------*/
 .nav a {
