@@ -181,6 +181,10 @@
 
 /*------------------------GENERAL ELEMENT STYLING-------------------*/
 
+body {
+  font-family: 'IBM Plex Mono', monospace;
+}
+
 .information-panel {
     background-color: #efefef;
     border-bottom: 1px solid #dbdbdb;
