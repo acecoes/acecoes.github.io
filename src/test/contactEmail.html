@@ -9,9 +9,6 @@
 
   <head>
 
-    <!-- Font Awesome CDN -->
-    <script src="https://use.fontawesome.com/e2d244642e.js"></script>
-
   	<!-- Beginning of Bootstrap imports -->
     <link href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css" rel="stylesheet">
     
@@ -24,14 +21,8 @@
 	<!-- Latest compiled and minified JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
-	<!-- Font Awesome CDN -->
-	<script src="https://use.fontawesome.com/ad438f45f9.js"></script>
-
-	<!-- IBM Plex Mono Font -->
-	<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono" rel="stylesheet">
-
 	<!-- My CSS that I have been working on -->
-    <link rel="stylesheet" href="../src/custom/main.css">
+    <link rel="stylesheet" href="./src/custom/main.css">
     
   </head>
 
@@ -46,45 +37,36 @@
         </ul>
         <ul class="pull-right">
           <li><a href="./about.html">About Us</a></li>
-          <li><a href="./resources.html" style="color:black;"><u>Resources</u></a></li>
+          <li><a href="./contact.html" style="color:black;"><u>Contact Us</u></a></li>
         </ul>
       </div>
     </div>
 
     <div class="parallax-2"></div>
 
-    <div class="container">
-    	<p>This is our home for all our current and up to date resources.</p>
-    </div>
+    <form method="post" name="contact_form" action="./src/forminput.php">
+    	Your Name:
+    	<input type="text" name="name">
+    	Email Address:
+    	<input type="text" name="email">
+    	Message:
+    	<textarea name="message"></textarea>
+    	<input type="submit" value="Submit">
+	</form>
+
+	<script language="JavaScript">
+		var frmvalidator  = new Validator("contactform");
+		frmvalidator.addValidation("name","req","Please provide your name");
+		frmvalidator.addValidation("email","req","Please provide your email");
+		frmvalidator.addValidation("email","email",
+		  "Please enter a valid email address");
+	</script>
 
     <div class='information-panel'>
-      <div class='footerText'>
-        <div class="container">
-          <div class="footerContainer">
-            
-            <p>Contact Us: <a href="emailto:acecoes@latech.edu">acecoes@latech.edu</a></p>
-
-            <!-- Thumbnails -->
-            <div class = "centered">
-            <div class="row">
-                <a href="https://www.facebook.com/groups/Cyber.Engineers/?fb_dtsg_ag=AdznsI73_STSjnf9Wag_oZ6UTKCi5_S2yzyjDgXDjgZ-yA%3AAdwLgQJwdqkUJsB8QBBtvxQz6--7NMr8yIg3hc3wlvnTbA">
-                  <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
-                </a>
-
-                <a href="https://twitter.com/@LaTechACE">
-                  <i class="fa fa-twitter fa-2x" aria-hidden="true"></i>
-                </a>
-
-                <a href="https://github.com/acecoes">
-                  <i class="fa fa-github fa-2x" aria-hidden="true"></i>
-                </a>
-            </div>
-            </div>
-
-          
-          <p>Website for the Association of Cyber Engineers -- Louisiana Tech University -- 2018</p>
-        </div>
-      </div>
+      <div class='footerText' margin-top = -30>
+      	<div class="container">
+        	<p>Website for the Association of Cyber Engineers -- Louisiana Tech University -- 2018</p>
+    	</div>
       </div>
     </div>
 
