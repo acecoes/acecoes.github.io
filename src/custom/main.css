@@ -101,6 +101,20 @@
     background-size: cover;
 }
 
+.parallax-4 {
+    /* The image used */
+    background-image: url('../../img/more cyberstorm/Pine.png');
+
+    /* Set a specific height */
+    min-height: 300px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /*------------------------END OF PARALLAX IMAGES-------------------*/
 
 
@@ -180,6 +194,10 @@
 /*------------------------ End of navbar styling -------------------*/
 
 /*------------------------GENERAL ELEMENT STYLING-------------------*/
+
+p {
+  overflow-wrap: break-word;
+}
 
 .information-panel {
     background-color: #efefef;
@@ -284,14 +302,6 @@ h1 {
 
 .centered {
   text-align: center;
-}
-
-.rotate90 {
-  -webkit-transform: rotate(90deg);
-  -moz-transform: rotate(90deg);
-  -o-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg);
 }
 
 /*------------------------END OF ELEMENT STYLING-------------------*/
