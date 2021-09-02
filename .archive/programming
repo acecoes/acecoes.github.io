@@ -1,0 +1,68 @@
+#include <stdio.h>
+#include <math.h>    // for sqrt
+#include <stdbool.h> // for booleans
+
+/* Project Euler #10
+ * -----------------
+ * The sum of the primes below 10 is 2 + 3 + 5 + 7 = 17.
+ * Find the sum of all the primes below 2 million.
+ * https://repl.it
+ */
+
+
+// This is a global variable. Why is it out here?
+long max = 2000000;
+
+// Why do we declare a function before main?
+int isaprime (int num); 
+int findSumOfPrimes(long max);
+
+// This is the main function. The program will start executing here.
+int main(void) {
+
+	// Call findSumOfPrimes 
+    
+
+    return 0;
+
+}
+
+// This is the function we declared.
+// What information can we get from the header?
+int isaprime (int num) {
+
+    // Variable declaration
+    // What's the difference between declaration and initialization?
+    int i;
+
+    for (i = 2; i <= sqrt(num); i++) {
+            if (num __ i == 0) {
+                    return 0;
+            }
+            else {
+                    ;
+            }
+    }
+
+    return true;
+}
+
+int findSumOfPrimes(long max) {
+
+    // This will be to hold the sum of all the primes below 2 million.
+    // What would be a good option? 
+    __ __ sum = 0;
+
+    // iterates through all numbers
+    for ( __ ; __ ; __ ) {
+
+            // only adds if prime
+            if ( _____ ) {
+                    sum = sum + i;
+                    
+            }
+    }
+
+    printf("%ld",sum);
+    return sum;
+}
